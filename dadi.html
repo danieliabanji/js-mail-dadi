@@ -11,7 +11,23 @@
 </head>
 <body>
 <a href="./index.html">torna indietro</a>
-<h1>Gioca a dadi</h1>
+<main class="container d-flex flex-column align-items-center mt-5">
+    <h1 class="text-danger">Giochiamo!</h1>
+    <h2 class="text-danger fs-1">Tira i dadi</h2>
+    <button id="click" class="btn btn-primary">Clicca e vediamo chi sarà il vincitore!</button>
+
+    <section class="row fs-4 m-4">
+        <div class="w-50 text-center"> 
+            <p>Punteggio del Player One:</p> 
+            <p class="result_player_one"></p>
+        </div>
+        <div class="col-5 text-center">
+            <p>Punteggio del Player Two:</p> 
+            <p class="result_player_two"></p>
+        </div>
+    </section>
+    <div class="fs-1">Il vincitore è: <span id="risultato" class="text-danger"></span></div>
+</main>
 
 
 
